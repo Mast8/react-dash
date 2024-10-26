@@ -43,7 +43,7 @@ export const menu = [
         id: 4,
         title: "Posts",
         url: "/posts",
-        icon: "post2.svg",
+        icon: "post.svg",
       },*/
     ],
   },
@@ -175,7 +175,7 @@ export const chartBoxUser = {
   dataKey: "users",
   percentage: 45,
   chartData: [
-    { name: "Sun", users: 400 },
+    { name: "Sun", users: 150 },
     { name: "Mon", users: 600 },
     { name: "Tue", users: 500 },
     { name: "Wed", users: 700 },
@@ -193,10 +193,10 @@ export const chartBoxProduct = {
   dataKey: "products",
   percentage: 21,
   chartData: [
-    { name: "Sun", products: 400 },
+    { name: "Sun", products: 600 },
     { name: "Mon", products: 600 },
     { name: "Tue", products: 500 },
-    { name: "Wed", products: 700 },
+    { name: "Wed", products: 300 },
     { name: "Thu", products: 400 },
     { name: "Fri", products: 500 },
     { name: "Sat", products: 450 },
@@ -213,7 +213,7 @@ export const chartBoxRevenue = {
     { name: "Sun", revenue: 400 },
     { name: "Mon", revenue: 600 },
     { name: "Tue", revenue: 500 },
-    { name: "Wed", revenue: 700 },
+    { name: "Wed", revenue: 500 },
     { name: "Thu", revenue: 400 },
     { name: "Fri", revenue: 500 },
     { name: "Sat", revenue: 450 },
@@ -233,7 +233,7 @@ export const chartBoxConversion = {
     { name: "Wed", ratio: 700 },
     { name: "Thu", ratio: 400 },
     { name: "Fri", ratio: 500 },
-    { name: "Sat", ratio: 450 },
+    { name: "Sat", ratio: 600 },
   ],
 };
 
